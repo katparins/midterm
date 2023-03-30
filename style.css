@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@500&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+overflow-x: hidden;
+background-color: #c7c7c7;
+}
+
+.header {
+  margin-top: 25px;
+  height: 70px;
+}
+
+.header img {
+  max-width: 17%;
+  max-height: 17%;
+  position: fixed;
+  top: 16px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.insta img {
+  max-width: 6.5%;
+  max-height: 6.5%;
+  position: fixed;
+  top: 40px;
+  left: 1370px;
+  z-index: 3;
+}
+
+.sheep img {
+  max-width: 14%;
+  max-height: 14%;
+  position: absolute;
+  top: 172px;
+  left: 528px;
+}
+
+.tablink {
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  padding: 15px 50px;
+  font-size: 19px;
+}
+
+.tabs {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  text-align: center;
+  z-index: 3;
+}
+
+.tablink:hover {
+  color: #ECC0CA;
+}
+
+.tab-bar {
+  background-color: black;
+  height: 70px;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.image-bar {
+  background-color: black;
+  height: 15%;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+h3 {
+  width: 800px;
+  border: transparent;
+  margin: 0;
+  line-height: 1.45 !important;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 185px;
+  color: white;  
+  font-size: 91px;
+  text-align: center;
+  z-index: 1;
+}
+
+.shopnow {
+  position: absolute;
+  top: 610px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+}
+
+.shop {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 18px 63px;
+  font-size: 20px;
+  width: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.shop:hover {
+  background-color: #777;
+}
+
+h2 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  letter-spacing: 10;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  left: 575px;
+  top: 775px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 19px;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 3px;
+  text-align: center;
+  border: none;
+  padding: 15px 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 135%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #ECC0CA;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: #ECC0CA;}
+
+.tablink, .dropbtn {
+  width: 260px;
+  height: 70px;
+}
+
+.pageContainer > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexContainer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBECF0;
+  border-radius: 10px;
+  width: 350px;
+  height: 420px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.bg img {
+  display: inline-block;
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 470px;
+  z-index: -1;
+}
+
+.bg2 img {
+  display: inline-block;
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  margin-top: 125px;
+  margin-left:105px;
+  z-index: -1;
+}
+
+h4 {
+  width: 800px;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 240px;
+  color: white;  
+  font-size: 87px;
+  text-align: center;
+  z-index: -1;
+}
+
+h1 {
+  width: 800px;
+  letter-spacing: 5px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 263px;
+  color: white;  
+  font-size: 115px;
+  text-align: center;
+  z-index: -1;
+}
+
+p {
+  width: 800px;
+  letter-spacing: 2px;
+  font-family: 'Tenor Sans', sans-serif;
+  margin-top: 510px;
+  color: black; 
+  font-size: 24px;
+  text-align: center;
+  z-index: -1;
+}
+
+h1, h4, p {
+  text-align: center;
+  position: absolute;
+  left: 780px;
+}
+
+.box {
+  background-color: white;
+  position: relative;
+  margin-top: 60px;
+  height: 470px;
+  justify-content: center;
+}
+
+.box2 {
+  background-color: white;
+  position: relative;
+  margin-top: 60px;
+  height: 470px;
+  justify-content: center;
+}
+
+.box3 {
+  background-color: white;
+  position: relative;
+  margin-top: 60px;
+  height: 470px;
+  justify-content: center;
+}
+
+.box4 {
+  background-color: white;
+  position: relative;
+  margin-top: 80px;
+  height: 470px;
+  justify-content: center;
+}
+
+.box5{
+  background-color: white;
+  position: relative;
+  margin-top: 80px;
+  height: 470px;
+  justify-content: center;
+}
+
+.box6 {
+  background-color: white;
+  position: relative;
+  margin-top: 80px;
+  height: 470px;
+  justify-content: center;
+}
+
+.pic {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.boxTitle {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  margin-top: -84px;
+  width: 100%;
+}
+
+.price {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  margin-top: -45px;
+  width: 100%;
+  font-weight: bold;
+  color: red;
+}
+
+.website {
+  position: absolute;
+  margin-top: -2px;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+a:link, a:visited{
+  color: black;
+}
+
+a:hover {
+  color: #ECC0CA;
+}
+
+.footer {
+  height: 50px !important;;
+  margin-top: 150px !important;;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.secondrow {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.items {
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+  margin-top: 850px;
+  font-size: 60px;
+  border-bottom: 5px solid white;
+  width: min-content;
+  padding-left: 100px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.bestsellers {
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+  margin-top: 70px;
+  font-size: 60px;
+  border-bottom: 5px solid white;
+  width: max-content;
+  padding-left: 100px;
+}
+
+.newcol {
+margin-top: -50px;
+object-fit: cover;
+}
+
+.nalin img {
+  display: inline-block;
+  max-width: 68%;
+  max-height: 68%;
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 110px;
+  z-index: -1;
+}
+
+.nalin2 img {
+  display: inline-block;
+  max-width: 68%;
+  max-height: 68%;
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 558px;
+  z-index: -1;
+}
+
+h5 {
+  width: 800px;
+  letter-spacing: 3px;
+  line-height: 90px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 153px;
+  margin-left: 800px;
+  color: white;
+  font-size: 83px;
+  text-align: center;
+  z-index: -1;
+}
+
+.nalinshop {
+  position: absolute;
+  margin-top: -82px;
+  margin-left: 1083px;
+  z-index: 1;
+  display: flex;
+}
+
+.trending {
+  font-family: 'Playfair Display SC', serif;
+  color: white;
+  margin-top: 330px;
+  font-size: 60px;
+  border-bottom: 5px solid white;
+  width: max-content;
+  padding-left: 100px;
+}
+
+.trendshop {
+  position: absolute;
+  margin-top: 80px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+}
+
+.viewall {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  border: transparent;
+  cursor: pointer;
+  padding: 18px 50px;
+  font-size: 15px;
+  width: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
